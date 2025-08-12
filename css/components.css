@@ -298,7 +298,116 @@
 }
 
 
+/*---------------------------------recommend_ad---------------------------------*/
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding-left: 104px;
+    padding-right: 104px;
+}
+
+.category_title{
+    font-size: 28px;
+    font-weight: 550;
+    color: #1f1f1f;
+}
+
+.categories{
+    width:1072px;
+    height: 200px;
+    display: flex;
+    padding-top:20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category_btn{
+    all: unset;  
+    height: 80px;
+    width:252px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category_btn>.btn_text,
+.category_btn>.btn_svg{
+  margin:20px;
+}
+
+.categories .btn1 {
+    background-color: rgb(199, 227, 253);
+}
+
+.categories .btn2 {
+    background-color: rgb(194, 193, 193);
+}
+
+.categories .btn3 {
+    background-color: rgb(187, 200, 245);
+
+}
+
+.categories .btn4 {
+    background-color: rgb(203, 246, 202);
+}
+
+.categories .btn1:hover {
+    background-color: rgb(157, 203, 247);
+    box-shadow: 4px 4px 8px rgba(157, 203, 247, 0.6);
+}
+
+.categories .btn2:hover{
+    background-color: rgb(135, 133, 133);
+    box-shadow: 4px 4px 8px rgba(135, 133, 133, 0.6);
+}
+
+.categories .btn3:hover{
+    background-color: rgb(150, 171, 246);
+    box-shadow: 4px 4px 8px rgba(150, 171, 246, 0.6);
+}
+
+.categories .btn4:hover{
+    background-color: rgb(159, 244, 158);
+    box-shadow: 4px 4px 8px rgba(159, 244, 158, 0.6);
+}
 
 
+.categories .btn_svg{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill:#1f1f1f;
+}
+
+.categories .btn1_svg{
+    background-color: rgb(157, 203, 247);
+}
+
+.categories .btn2_svg{
+    background-color: rgb(135, 133, 133);
+}
+
+.categories .btn3_svg{
+    background-color: rgb(150, 171, 246);
+}
+
+.categories .btn4_svg{
+    background-color: rgb(159, 244, 158);
+}
+
+.categories .btn_text{
+    font-size:16px;
+}
+/*----------------------------category----------------------------*/
 
 
