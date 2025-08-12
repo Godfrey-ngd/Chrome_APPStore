@@ -5,6 +5,13 @@ body{
     padding-top: 100px;
 }
 
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+ 
+}
+
 .header{
     position: fixed;    /* 固定定位 */
     top: 0;
