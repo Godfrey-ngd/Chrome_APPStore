@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>WebStore · 仿 Chrome 应用商店</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="search_fun_row">
+            <div class="logo_text">
+                <div class="logo">
+                    <img src="assets/logos/goole_logo.png" alt="">
+                </div>
+                <div class="text">
+                    Chrome 应用商店
+                </div>
+            </div>
+    
+            <div class="search">
+                <div class="search_input_warp">
+                    <div class="search_svg_warp">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="currentColor">
+                            <path
+                                d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                        </svg>
+                    </div>
+                    <input class="search_input" type="text" placeholder="搜索拓展程序和主题">
+                </div>
+            </div>
+            <div class="fun">
+                <div class="more_svg_warp">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="currentColor">
+                        <path
+                            d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z" />
+                    </svg>
+                </div>
+                <div class="apps_svg_warp">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="currentColor">
+                        <path
+                            d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z" />
+                    </svg>
+                </div>
+                <div class="user">U</div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_btn_group">
+                <input type="radio" name="tabs" id="tab1" hidden checked>
+                <label for="tab1" class="menu_btn1 menu_btn">
+                    <span class="menu_btn1_text ">探索</span>
+                </label>
+                <input type="radio" name="tabs" id="tab2" hidden>
+                <label for="tab2" class="menu_btn2 menu_btn">
+                    <span class="menu_btn2_text">拓展程序</span>
+                </label>
+                <input type="radio" name="tabs" id="tab3" hidden>
+                <label for="tab3" class="menu_btn3 menu_btn">
+                    <span class="menu_btn3_text">主题</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+
+
+    <div class="recommend_ad">
+        <div class="recommend_ad_scroll">
+            <div class="recommend_ad_innerImg">
+                <img src="assets/banners/rec_ad2_inner.png">
+            </div>
+
+            <div class="recommend_ad_innerText">
+            
+            
+                <div class="recommend_ad_innerText_part1">
+                    <span class="text">BetterCanvas(NowBetterCampus)</span>
+                </div>
+            
+                <div class="recommend_ad_innerText_part2">
+                    <span class="text"> Feature packed extension for canvas</span>
+                </div>
+                <div class="recommend_ad_innerText_part3">
+                    <span class="text1">
+                        5.0分<br>
+                        4545条评价
+                    </span >
+                    <span class="text_bar">
+                        |  
+                    </span>
+                    <span class="text2">
+                        100万<br>
+                        用户数
+                    </span>
+                </div>
+                <div class="recommend_ad_innerText_part4">
+                    <button class="btn">
+                        查看详情
+                    </button>
+                </div>
+            
+            </div>
+            <div class="recommend_ad_innerBtn">
+                <button class="btn-left">
+                    <
+                </button>
+                <span class="page">
+                    1/10
+                </span>
+                <button class="btn-right">
+                    >
+                </button>
+                <button class="btn-stop">    
+                <span>&#9208;</span>  <!-- ⏸ 暂停 -->
+                </button>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="category">
+        <span class="category_title">热门类别</span>
+        <div class="categories">
+        <button class="category_btn btn1">
+            <span class="btn_text btn1_text">购物</span>
+            <div class="btn_svg btn1_svg">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="m380-240 280-180-280-180v360ZM160-120q-33 0-56.5-23.5T80-200v-520h240v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h240v520q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg>
+            </div>
+        </button>
+
+        <button class="category_btn btn2 ">
+            <span class="btn_text btn2_text">娱乐</span>
+
+            <div class="btn_svg btn2_svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z"/></svg></div>
+        </button>
+
+        <button class="category_btn btn3">
+            <span class="btn_text btn3_text">工具</span>
+
+            <div class="btn_svg btn3_svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M754-81q-8 0-15-2.5T726-92L522-296q-6-6-8.5-13t-2.5-15q0-8 2.5-15t8.5-13l85-85q6-6 13-8.5t15-2.5q8 0 15 2.5t13 8.5l204 204q6 6 8.5 13t2.5 15q0 8-2.5 15t-8.5 13l-85 85q-6 6-13 8.5T754-81Zm0-95 29-29-147-147-29 29 147 147ZM205-80q-8 0-15.5-3T176-92l-84-84q-6-6-9-13.5T80-205q0-8 3-15t9-13l212-212h85l34-34-165-165h-57L80-765l113-113 121 121v57l165 165 116-116-43-43 56-56H495l-28-28 142-142 28 28v113l56-56 142 142q17 17 26 38.5t9 45.5q0 24-9 46t-26 39l-85-85-56 56-42-42-207 207v84L233-92q-6 6-13 9t-15 3Zm0-96 170-170v-29h-29L176-205l29 29Zm0 0-29-29 15 14 14 15Zm549 0 29-29-29 29Z"/></svg></div>
+        </button>
+
+        <button class="category_btn btn4">
+            <span class="btn_text btn4_text">艺术与设计</span>
+
+            <div class="btn_svg btn4_svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M240-120q-45 0-89-22t-71-58q26 0 53-20.5t27-59.5q0-50 35-85t85-35q50 0 85 35t35 85q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T320-280q0-17-11.5-28.5T280-320q-17 0-28.5 11.5T240-280q0 23-5.5 42T220-202q5 2 10 2h10Zm230-160L360-470l358-358q11-11 27.5-11.5T774-828l54 54q12 12 12 28t-12 28L470-360Zm-190 80Z"/></svg></div>
+
+        </button>
+        </div>
+
+    </div>
+
+    <div class="recommend_module">
+        <span class="recommend_module_title">你可能喜欢</span>
+        <button class="recommend_more_btn">
+            <span class="recommend_more_btn_text">查看更多</span>
+        </button>
+        <div class="recommend_modules">
+            <div class="recommend_module_item item1">
+                <div class="recommend_module_item_img">
+                    <img src="assets/banners/rec_module1.png" alt="">
+                </div>
+                <div class="recommend_module_item_title">
+                    <span>Car Driving Game</span>
+                </div>
+                <div class="recommend_module_item_rating">
+                    <span>4.5☆(135)</span>
+                </div>
+                <div class="recommend_module_item_desc">
+                    <span>Enjoy car driving simulator in this game. Drive your car, avoid obstacles, and collect coins. Test your skills and have fun!</span>
+                </div>
+            </div>
+    
+            <div class="recommend_module_item item2">
+    <div class="recommend_module_item_img">
+                    <img src="assets/banners/rec_module2.png" alt="">
+                </div>
+                <div class="recommend_module_item_title">
+                    <span>Roblox</span>
+                </div>
+                <div class="recommend_module_item_rating">
+                    <span>4.6☆(445)</span>
+                </div>
+                <div class="recommend_module_item_desc">
+                    <span>Roblox is a platform that allows players to create and play games. It has a vast community of creators who build games using its in-game scripting language, Lua. Players can also create their own games and share them with the community.</span>
+                </div>
+            </div>
+    
+            <div class="recommend_module_item item3">
+                <div class="recommend_module_item_img">
+                    <img src="assets/banners/rec_module3.png" alt="">
+                </div>
+                <div class="recommend_module_item_title">
+                    <span>SponsorBlock for YouTube</span>
+                </div>
+                <div class="recommend_module_item_rating">
+                    <span>4.3☆(335)</span>
+                </div>
+                <div class="recommend_module_item_desc">
+                    <span>SponsorBlock for YouTube is a browser extension that allows users to skip sponsored segments in YouTube videos. It works by blocking ads and other non-essential content, allowing users to focus on the video they are watching.</span>
+                </div>
+
+            </div>
+    
+            <div class="recommend_module_item item4">
+                <div class="recommend_module_item_img">
+                    <img src="assets/banners/rec_module4.png" alt="">
+                </div>
+                <div class="recommend_module_item_title">
+                    <span>Grammarly for Chrome</span>
+                </div>
+                <div class="recommend_module_item_rating">
+                    <span>4.1☆(326)</span>
+                </div>
+                <div class="recommend_module_item_desc">
+                    <span>Grammarly for Chrome is a browser extension that helps users write better grammar and spelling. It provides real-time feedback and suggestions as users type, making it easier for them to write clear and concise content.</span>
+                </div>
+
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="collection_ad">
+        <div class="collection_ad_left">
+
+        <span class="title">让屏幕变暗</span>
+        <span class="desc">利用我们的精选暗色模式拓展程序，降低屏幕亮度</span>
+        <button>查看详情</button>
+        </div>
+
+        <div class="collection_ad_right">
+            <img src="assets/banners/collection_ad.png" alt="">
+        </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
