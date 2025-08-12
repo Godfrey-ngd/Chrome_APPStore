@@ -149,3 +149,156 @@
     margin-left:20px;
 }
 
+/*---------------------------------header menu---------------------------------*/
+
+.recommend_ad{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend_ad_scroll{
+    height: 372px;
+    width: 1072px;
+    background:  url('../assets/banners/rec_ad2.png');
+    background-size: cover;
+    border-radius: 30px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.recommend_ad_innerImg{
+    display: flex;
+    flex: 1 1 0; 
+    min-width: 0; 
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    border:black ;
+}
+
+.recommend_ad_innerImg img{
+    height: 240px;
+    width: auto;
+    max-width: 100%;
+    border-radius:20px;
+}
+
+
+.recommend_ad_innerText{
+    height: 372px;
+    width: 350px;
+    flex-shrink:0;
+    display:flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+
+.recommend_ad_innerText_part1 .text{
+    font-size: 35px;
+    font-weight: 800;
+    color: #202124;
+    word-break: break-word;  /*  长单词/长链接断行（新写法，现代浏览器支持） */
+}
+
+
+
+.recommend_ad_innerText_part2 .text{
+    font-size: 10px;
+    font-weight: 100;
+    color: #202124;
+    word-break: break-word;  /*  长单词/长链接断行（新写法，现代浏览器支持） */
+}
+
+
+.recommend_ad_innerText_part3{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: start;
+}
+
+.recommend_ad_innerText_part3 .text1,
+.recommend_ad_innerText_part3 .text2{
+    display: inline-block;
+    width:80px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.recommend_ad_innerText_part3 .text_bar{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 40;
+    color: #000000;
+    margin:5px;
+}
+
+.recommend_ad_innerText_part4{
+    padding-top: 10px;
+    display: flex;
+    justify-content:start;
+}
+
+.recommend_ad_innerText_part4 .btn{
+    height: 40px;
+    width: 100px;
+    border: #202124 solid 1px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend_ad_innerText_part4 .btn:hover{
+    opacity:0.8;
+}
+
+.recommend_ad_innerBtn{
+    height: 372px;
+    width:230px;
+    flex-shrink:0;
+    display:flex;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding:25px;
+}
+
+
+
+.recommend_ad_innerBtn button{
+    all: unset;  
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.recommend_ad_innerBtn button:hover{
+    background-color: rgba(0, 0, 0, 0.05);/*整体变暗 15% */
+}
+
+.recommend_ad_innerBtn .page{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
