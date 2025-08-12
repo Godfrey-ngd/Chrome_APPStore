@@ -46,17 +46,21 @@ body{
     background-color: #fff;
 }
 
-
 .recommend_module{
     height: 400px;
     width:1280px;
     background-color: #fff;
 }
 
+
 .collection_ad{
-    height: 350px;
+    height: 300px;
     width:1280px;
-    background-color: #fff;
-    border:red solid 2px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
